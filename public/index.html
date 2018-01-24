@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="p5.min.js"></script>
+	<script language="javascript" type="text/javascript" src="addons/p5.sound.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="classes/ball2.html"></script>
+	<script src="loginScript.js"></script>
+	<script src="client.js"></script>
+
+	<title>MongoSnake - Login</title>
+</head>
+<body> <!-- onload="startGame()" -->
+
+	<div id="container">
+		<center>
+			<br>
+			<img width="250px" src="images/snakeicon.png">
+			<br>
+			<br>
+			<p>Enter a username:</p>
+			<input type="text" onfocus="this.value=''" style="color: grey; font-style: italic;" id="nameInput" value="Anonymous">
+			<br>
+			<br>
+			<button onclick="sendLogin()" type="button">PLAY</button>
+
+		</center>
+	</div>
+	
+	<!--
+	<p id="counter">Loading button click data.</p>
+	<button id="scoreButton">Click me!</button>
+	-->
+	
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+1) Movement
+2) Event handling - log x,y
+3) Update DB with x,y
+4) Get circle x,y from DB and draw

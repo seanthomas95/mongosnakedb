@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="p5.min.js"></script>
+	<script language="javascript" type="text/javascript" src="addons/p5.sound.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="classes/ball2.html"></script>
+	<script src="script.js"></script>
+	<script src="client.js"></script>
+
+	<title>MongoSnake - Game</title>
+</head>
+<body> <!-- onload="startGame()" -->
+
+	<div id="container">
+		<center>
+			<br>
+			<img width="250px" src="images/snakeicon.png">
+			<br>
+			<br>
+			<canvas id="myCanvas" width="400" height="400" style="border: 2px solid green;">
+				Your browser does not support the HTML5 canvas tag.
+			</canvas>
+			<br>
+			<br>
+			<div id="slider" display="none"><button onclick="reloadPage()" type="button">Try Again!</button></div>
+			<br>
+			<hr>
+			<p>Your Score:
+			<input type="text" id="scoreBox" name="score" value="0" style="background-color: #ffff7e;" readonly></p>
+			<p>High Score:
+			<input type="text" id="highScoreBox" name="score" value="0" style="background-color: #6af26c" readonly></p>
+			<hr>
+		</center>
+	</div>
+	
+	<!--
+	<p id="counter">Loading button click data.</p>
+	<button id="scoreButton">Click me!</button>
+	-->
+	
+</body>
+
+</html>
